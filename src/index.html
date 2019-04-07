@@ -6,10 +6,77 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
-    <script src="cipher.js"></script>
+    <!--Bienvenida y definición-->
+
+    <div>
+        <h1>Bienvenida al Oppa text</h1>
+         <h2>¡Descubre tus nuevos mensajes secretos!</h2>
+       <p>El Oppa Text es una aplicación que podrás utilizar para crear contraseñas, mensajes privados</p>
+       <p>entre tus amigas acerca de tus Idols y Oppas favoritos.</p>
+       <p>Esta aplicación usa un código que fue creado por Julio César</p>
+       <p>el cual es uno de los primeros cifrados conocidos históricamente</p>
+      
+       </div>  
+               
+          <h4>Crea contraseñas y mensajes para tus Idols</h4>
+   
+           
+     <!--Ingreso del Nombre de usuario y guardarlo-->
+   
+             <div id="inicio" class="screen">  
+          <h3>Ingresa Tu nombre</h3>    
+               <div class="container">
+             <input type="text" id="user" placeholder= "Ingresa tu nombre">
+             <input type="button" id="nick_name" name="send" value="Enviar">
+             <form id="nick">
+             </form>
+           
+              </div>
+       </div>
+        
+            
+           
+    
+   
+   <!--seleccion de offset-->
+   <h3>Escribe aquí tu número de desplazamiento</h3>
+
+  <div id= "ingresar_numero">
+          <form id="desplazamiento">
+              <input type="number" id ="offset" min="1" max="80" placeholder="Ingresar numero"/> 
+              <!--input type="submit" value="start" id="send"/-->
+              </form>
+  </div>
+  
+       
+   <!--Ingresar Texto a codificar o decodificar-->
+   <p>Comencemos!</p>
+  <h3>Ingresa tu texto</h3>
+  
+  
+  <form id= "text_write">
+          <input type="text" id="text" name= "ingresar" placeholder= "Ingresa texto">
+      
+      </form>
+
+ <!--elegir que se va a realizar cifrado o descifrado-->
+    <h3>Selecciona la opción</h3>  
+  <div id= "seleccion">
+      <form id="categoria">
+          <input type="button" id="category_codificar" name="encode" value="Cifrar">
+          <input type="button" id="category_decodificar" name="decode" value="Descifrar">
+
+      </form>
+  </div>
+ 
+  <div>
+   <h3>Resultado código</h3>
+    <p id="answer"></p>
+  </div> <!--seccion resultado del codigo-->
+ 
+
     <script src="index.js"></script>
-  </body>
-</html>
+    <script src="cipher.js"></script>
+ </body>   
+
+ </html>
