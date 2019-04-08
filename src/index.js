@@ -32,7 +32,7 @@ document.getElementById("category_codificar").addEventListener("click", () => {
   
   document.getElementById("category_decodificar").addEventListener("click", () =>{
      let text =document.getElementById("text").value;
-     let offset =document.getElementById("offset").value;
+     let offset =parseInt(document.getElementById("offset").value);
      let finalResult = cipher.decode(offset,text);
     document.getElementById("answer").innerHTML = `${finalResult}`
   });
