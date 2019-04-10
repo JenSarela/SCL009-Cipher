@@ -88,7 +88,7 @@ window.cipher = {
               finalResult += String.fromCharCode(descifrado);
             }
              //numeros
-          else if (positionAscii >=48 && positionAscii<=57){
+          else if (positionAscii >= 48 && positionAscii<=57){
             let descifrado =parseInt((positionAscii-57 - offset)%10 + 57);
             finalResult += String.fromCharCode(descifrado);
           }          

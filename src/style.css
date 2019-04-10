@@ -1,19 +1,45 @@
 /* Acá va tu código */
 body{
-    text-align: center;
-  }
-  #user_text{
-    padding: 2%;
-    font-size: 14px;
-  }
-  
-  #show{
-    background-color: aquamarine;
-    border-radius: 10px;
-    padding: 2%;
-  }
-  
-  #root{
-    text-align: left;
-    padding: 0% 10%;
-  }  
+  background-color: pink;
+  text-align: center;
+  background-attachment: fixed;
+  background-size: 70% 100%;
+  background-position: center top;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif
+}  
+h1 {
+  color: white;
+  background-color: violet;
+  border: 6px double #ffb6c1;
+  margin-left:350px; 
+  margin-right:350px;
+  text-align: lefth;
+}
+h2{
+  color: black;
+  background-color:#FFDAB9;
+  margin-left:350px; 
+  margin-right:350px;
+  border: 1px double #ffb6c1;
+}
+h3{
+  color: white;
+  background-color:#87CEFA;
+  margin-left:450px; 
+  margin-right:450px;
+  border: 1px double #6495ED;
+}
+h4{
+color: black;
+background-color: #FFB6C1;
+margin-left:350px; 
+margin-right:350px;
+border: 6px double rgb(199, 38, 137);
+
+}
+
+.Answer{
+  background-color: #e5e6e6;
+  padding: 5px;
+  border-radius: 4px;
+}
