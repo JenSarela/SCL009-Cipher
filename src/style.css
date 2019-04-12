@@ -1,12 +1,18 @@
 /* Acá va tu código */
-body{
-  background-color: pink;
+  .screen    {
+  opacity: 10;
+ }   
+  body{
+    background-color: lightpink;
+  background-image: url(img/fondo1.jpg);
+  background-repeat: no-repeat;
   text-align: center;
   background-attachment: fixed;
   background-size: 70% 100%;
-  background-position: center top;
+  background-position: center;
   font-family: "Gill Sans Extrabold", Helvetica, sans-serif
-}  
+
+   }  
 h1 {
   color: white;
   background-color: violet;
@@ -14,7 +20,7 @@ h1 {
   margin-left:350px; 
   margin-right:350px;
   text-align: lefth;
-}
+ }
 h2{
   color: black;
   background-color:#FFDAB9;
@@ -38,8 +44,13 @@ border: 6px double rgb(199, 38, 137);
 
 }
 
-.Answer{
-  background-color: #e5e6e6;
-  padding: 5px;
-  border-radius: 4px;
+.resultado_codigo{
+  padding: 20px;
+  widows: 50%;
+  background-color: aliceblue;
+  height:90%;
+  position: relative;
+  margin-right: 450px;
+  margin-left: 450px;
+  border: 6px double rgb(199, 38,138);
 }
